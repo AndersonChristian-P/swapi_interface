@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import { HashRouter } from "react-router-dom"
 
-import './App.scss';
+import './App.scss'
+import router from "./router"
 
 class App extends Component {
   constructor() {
@@ -14,9 +16,10 @@ class App extends Component {
   render() {
 
     return (
-      <>
+      <HashRouter >
         <h1>Jello World!!!</h1>
-      </>
+        {router}
+      </HashRouter >
     )
 
   }

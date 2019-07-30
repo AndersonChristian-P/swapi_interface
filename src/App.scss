@@ -1,7 +1,8 @@
 // -- FONTS -- //
+@import url('https://fonts.googleapis.com/css?family=News+Cycle:400,700&display=swap');
 
 // -- SNIPPETS -- //
-@import "./components/Home/Home";
+@import "./components/Header/Header";
 
 
 // -- RESET -- //
@@ -16,6 +17,9 @@ body {
   max-width: 1820px;
 	padding: 0 10px;
 	font-size: 1em;
-	line-height: 1.5em;
+	line-height: 1;
 	text-rendering: optimizeLegibility;
+	background: black;
+	color: #feda4a;
+	font-family: 'News Cycle', sans-serif;
 }

@@ -1,28 +1,18 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { HashRouter } from "react-router-dom"
 
 import './App.scss'
 import router from "./router"
+import Header from "./components/Header/Header"
 
-class App extends Component {
-  constructor() {
-    super()
+function App() {
 
-    this.state = {
-    }
-  }
-
-
-  render() {
-
-    return (
-      <HashRouter >
-        <h1>Jello World!!!</h1>
-        {router}
-      </HashRouter >
-    )
-
-  }
+  return (
+    <HashRouter >
+      <Header />
+      {router}
+    </HashRouter >
+  )
 }
 
 export default App;

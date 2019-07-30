@@ -3,6 +3,7 @@
 
 // -- SNIPPETS -- //
 @import "./components/Header/Header";
+@import "./components/ScrollText/ScrollText";
 
 
 // -- RESET -- //
@@ -14,8 +15,6 @@
 
 // -- BASE SETUP -- //
 body {
-  max-width: 1820px;
-	padding: 0 10px;
 	font-size: 1em;
 	line-height: 1;
 	text-rendering: optimizeLegibility;

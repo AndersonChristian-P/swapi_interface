@@ -1,5 +1,5 @@
 // -- FONTS -- //
-@import url('https://fonts.googleapis.com/css?family=News+Cycle:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=News+Cycle:400,700|Pathway+Gothic+One&display=swap');
 
 // -- SNIPPETS -- //
 @import "./components/Header/Header";
@@ -18,7 +18,7 @@ body {
 	font-size: 1em;
 	line-height: 1;
 	text-rendering: optimizeLegibility;
-	background: black;
+	background: #000;
 	color: #feda4a;
 	font-family: 'News Cycle', sans-serif;
 }

@@ -23,7 +23,7 @@
     position: relative; /* Positions the element so we can adjust the top property in the animation */
     top: -2000px; /* Makes sure the text is fully off the screen at the start and end of the animation */
     transform-origin: 50% 100%; /* Defines the skew origin at the very center when we apply transforms on the animation */
-    animation: crawl 60s linear;
+    animation: crawl 70s linear;
   }
   .crawl > .title {
     font-size: 90%;

@@ -1,0 +1,15 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  .nav {
+    margin-left: 1em;
+    font-weight: 700;
+    font-size: 200%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #feda4a;
+  }
+}

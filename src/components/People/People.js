@@ -7,14 +7,14 @@ class People extends Component {
   constructor() {
     super()
     this.state = {
-      data: []
+      peopleData: []
     }
   }
 
   componentDidMount() {
     axios.get("https://swapi.co/api/people/").then(res => {
       this.setState({
-        data: res.data.results
+        peopleData: res.data.results
       })
     })
   }
@@ -22,7 +22,7 @@ class People extends Component {
   render() {
     return (
       <>
-        <PeopleCard data={this.state.data} />
+        <PeopleCard peopleData={this.state.peopleData} />
       </>
     )
   }

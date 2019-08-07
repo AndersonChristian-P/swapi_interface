@@ -1,7 +1,7 @@
 import React from "react"
 
-const Card = (props) => {
-  const card = props.data.map((element, i) => {
+const PeopleCard = (props) => {
+  const peopleCard = props.peopleData.map((element, i) => {
     return (
       <div key={element.name} className="people-card" >
         <div className="person-name" >{element.name}</div>
@@ -12,9 +12,9 @@ const Card = (props) => {
 
   return (
     <div className="people-cards" >
-      {card}
+      {peopleCard}
     </div>
   )
 }
 
-export default Card
+export default PeopleCard

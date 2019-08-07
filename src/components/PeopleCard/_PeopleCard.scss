@@ -22,6 +22,10 @@
     margin-top: .675em;
     font-weight: 700;
   }
+  .person-name:hover, .person-birth-year:hover {
+  color: #feda4a;
+  cursor: default;
+  }
   }
   .people-card:hover {
     color: #ffffff;

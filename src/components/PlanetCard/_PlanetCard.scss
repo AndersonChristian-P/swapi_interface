@@ -25,6 +25,12 @@
     margin-top: .675em;
     font-weight: 700;
   }
+
+  .planet-name:hover, .planet-climate:hover, .planet-gravity:hover, .planet-population:hover {
+  color: #feda4a;
+  cursor: default;
+  }
+
   }
   .planet-card:hover {
     color: #ffffff;

@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import axios from "axios"
 
-import Card from "../Card/Card"
+import PeopleCard from "../PeopleCard/PeopleCard"
 
 class People extends Component {
   constructor() {
@@ -20,21 +20,9 @@ class People extends Component {
   }
 
   render() {
-    // const card = this.state.people.map((person, i) => {
-    //   console.log(person)
-    //   return (
-    //     <div key={person.name} className="people" >
-    //       <h2>{person.name}</h2>
-    //       <h2>{person.birth_year}</h2>
-    //     </div>
-    //   )
-    // }
-    // )
-
     return (
       <>
-        {/* {card} */}
-        <Card data={this.state.data} />
+        <PeopleCard data={this.state.data} />
       </>
     )
   }

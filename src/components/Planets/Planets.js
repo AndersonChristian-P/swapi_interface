@@ -15,6 +15,8 @@ class Planets extends Component {
     axios.get("https://swapi.co/api/planets/").then(res => {
       this.setState({
         planetData: res.data.results
+      }).catch(err => {
+        console.log("bummer error: ", err)
       })
     })
   }

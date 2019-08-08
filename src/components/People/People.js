@@ -16,6 +16,8 @@ class People extends Component {
       this.setState({
         peopleData: res.data.results
       })
+    }).catch(err => {
+      console.log("bummer error: ", err)
     })
   }
 

@@ -16,9 +16,10 @@ class Vehicles extends Component {
     axios.get("https://swapi.co/api/vehicles").then(res => {
       this.setState({
         vehicleData: res.data.results
-      }).catch(err => {
-        console.log("bummer error: ", err)
       })
+      // .catch(err => {
+      //   console.log("bummer error: ", err)
+      // })
     })
   }
 

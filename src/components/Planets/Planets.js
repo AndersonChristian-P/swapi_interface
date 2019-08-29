@@ -17,9 +17,9 @@ class Planets extends Component {
         this.setState({
           planetData: res.data.results
         })
-        // .catch(err => {
-        //   console.log("bummer error: ", err)
-        // })
+      })
+      .catch(err => {
+        console.log("bummer error: ", err)
       })
   }
 

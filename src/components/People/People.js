@@ -12,14 +12,15 @@ class People extends Component {
   }
 
   componentDidMount() {
-    axios.get("https://swapi.co/api/people/").then(res => {
-      this.setState({
-        peopleData: res.data.results
+    axios.get("https://swapi.co/api/people/")
+      .then(res => {
+        this.setState({
+          peopleData: res.data.results
+        })
       })
-    })
-    // .catch(err => {
-    //   console.log("bummer error: ", err)
-    // })
+      .catch(err => {
+        console.log("bummer error: ", err)
+      })
   }
 
   render() {
